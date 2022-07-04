@@ -147,6 +147,39 @@ section {
   }
 }
 
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 60px;
+  }
+  .dev, h3 {
+    font-size: 40px
+  }
+  .mail {
+    font-size: 1.27em;
+  }
+  section {
+    padding: 100px 50px 100px 50px;
+    height: auto;
+    min-height: 100vh;
+  }
+  .exp-head {
+    flex-direction: column;
+  }
+  .exp-dates {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  .exp-description, .interest {
+    font-size: 20px;
+  }
+  .fab, .fas {
+    font-size: 100px;
+    height: 100px;
+  }
+}
+
 p, li {
   text-align: justify;
 }
