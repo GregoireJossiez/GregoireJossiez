@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
+<link rel="stylesheet" href="css/normalize.css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/809b9516f1.js" crossorigin="anonymous"></script>
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/normalize.css/normalize.css">
@@ -7,9 +10,110 @@
     <title>Grégoire Jossiez - Portfolio</title>
   </head>
   <body>
+    <nav>
+      <div class="navigation">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#interests">Interests</a>
+      </div>
+    </nav>
     <div class="container">
-      <h1>&lt;Hello World&#47;&gt;</h1>
-      <p>En construction</p>
+      <section id="about">
+        <h2 class="name">GRÉGOIRE JOSSIEZ</h2>
+        <div class="exp-head">
+          <h3 class="dev">Développeur web</h3>
+          <p class="mail">gregoire.jossiez@gmail.com</p>
+        </div>
+        <div class="exp-content">
+          <p class="exp-description">Curieux de nature, j'aime savoir comment tout fonctionne, de la technologie à l'Univers, en passant par la métaphysique.</p>
+        </div>
+        <div class="social">
+          <div class="git">
+            <a href="https://github.com/gregoirejossiez" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="CV">
+            <a href="pdf/devweb.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+            <p class="CV-title">CV</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="experiences">
+          <div class="exp">
+            <div class="exp-head">
+              <h3>Assesseur Internet</h3>
+              <p class="exp-dates">03/2018 - 12/2018</p>
+            </div>
+            <div class="exp-content">
+              <h4>Lionbridge</h4>
+              <p class="exp-description">Comprendre les requêtes utilisateurs, Évaluer les réponses du moteur de recherche Google</p>
+            </div>
+          </div>
+          <div class="exp">
+            <div class="exp-head">
+              <h3>Agent Logistique</h3>
+              <p class="exp-dates">11/2015 - 12/2016</p>
+            </div>
+            <div class="exp-content">
+              <h4>Cdiscount</h4>
+              <p class="exp-description">Trier les produits renvoyés par les clients, Vérifier leurs états, Insérer les produits sur le site Web Occasion,
+                Palettisation et préparation pour l’envois
+                Emballage – Logistique</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section id="education">
+        <h2>Education</h2>
+        <div class="experiences">
+          <div class="exp">
+            <div class="exp-head">
+              <h3>Développeur Web - Bac +2</h3>
+              <p class="exp-dates">09/2021 - 06/2022</p>
+            </div>
+            <div class="exp-content">
+              <h4>OpenClassRooms</h4>
+            </div>
+          </div>
+          <div class="exp">
+            <div class="exp-head">
+              <h3><span title="Certificat de Qualification Professionnelle Activité Loisir Sportif - Activité Gymnique d'Entretien et d'Expression">CQP ALS - AGEE</span></h3>
+              <p class="exp-dates">01/2020 - 11/2020</p>
+            </div>
+            <div class="exp-content">
+              <h4>Sport Pour Tous</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-vuejs"></i>
+          <i class="fab fa-node-js"></i>
+          <i class="fab"><img class="fab" src="image/sequelize.png" alt="sequelize logo"></i>
+          <i class="fab fa-npm"></i>
+        </div>
+      </section>
+      <hr>
+      <section id="interests">
+        <h2>Interests</h2>
+        <div class="exp">
+          <p class="interest">Méditation</p>
+          <p class="interest">Taiji Quan</p>
+        </div>
+      </section>
     </div>
+    <footer></footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
