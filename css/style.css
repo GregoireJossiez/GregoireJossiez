@@ -127,10 +127,10 @@ section {
 
 @media screen and (max-width: 1024px) {
   nav {
-    position: relative;
+    position: sticky;
     margin: auto;
     width: auto;
-    height : 100px;
+    height: 100px;
     border-right-width: 0px;
   }
   .navigation {
