@@ -28,3 +28,10 @@ h1 {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+
+p {
+  font-family: Verdana;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
